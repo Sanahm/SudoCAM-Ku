@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollY="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:theme="@style/AppTheme"
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="#0099ff"
+        android:textAlignment="center"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="40dp"
+        android:gravity="center"
+        android:text = "This app help you solve your sudoku grid by using your phone camera! "
+        android:id="@+id/msg"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:id="@+id/hiw"
+        android:text = "How it works?"
+        android:elegantTextHeight="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textSize="15dp"
+        android:textColor="#000000"
+        android:id="@+id/welcome"
+        android:text = "@string/msg"
+        android:elegantTextHeight="true"/>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="#0099ff"
+
+        android:layout_gravity="center"
+        android:textIsSelectable="true"
+        android:text="@string/note"
+        android:id="@+id/note"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:text = "@string/git"
+        android:textIsSelectable="true"
+        android:id="@+id/git"
+        android:clickable="true"
+        android:layout_marginTop="40dp"/>
+
+</LinearLayout>

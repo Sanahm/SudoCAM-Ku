@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="numColor">
+        <item> "<font color="#ff000d">RED</font>"</item>
+        <item> "<font color="#0ed61c">GREEN</font>"</item>
+        <item> "<font color="#0077ff">BLUE</font>"</item>
+    </string-array>
+</resources>

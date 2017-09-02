@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_camera"
+        android:icon="@drawable/ic_menu_camera1"
+        android:title="Solve" />
+
+    <item
+    android:id="@+id/nav_manage"
+    android:icon="@drawable/ic_menu_manage"
+    android:title="Tools" />
+
+    <item
+        android:id="@+id/nav_help"
+        android:icon="@drawable/ic_help_outline_black_24dp"
+        android:title="Help" />
+
+</menu>
