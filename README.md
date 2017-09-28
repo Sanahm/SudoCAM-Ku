@@ -2,7 +2,7 @@
 An android camera-based augmented reality application that automatically solve and fill Sudoku puzzles by passing the camera over the puzzle. This project is based on a previous work : [An automous robot that solve and fill sudoku puzzles](https://github.com/Sanahm/Sudoku-robot) (see Sudoku-robot repo for more details).
 
 <p align="center">
-<img src="https://github.com/Sanahm/SudoCAM-Ku/blob/master/sudoku.png" width="512" height="400"/>
+<img src="https://github.com/Sanahm/SudoCAM-Ku/blob/master/sudoku.png" width="512" height="340"/>
 </p>
 
 ## Get the project
@@ -21,7 +21,7 @@ A video is worth a thousand words: [a link to youtube video](https://youtu.be/cE
 
 ## Remark
 
-- As the project size is big ( ~1GB with libs both tensorflow and opencv) , you'll find on my repo just .java, .xml files and asset folder containing the tensorflow training model.
+- As the project size is big ( ~1GB with libs both Tensorflow and OpenCV) , you'll find on my repo just .java, .xml files and asset folder containing the tensorflow training model.
 
 - The project is fully documented. If you want more information about how processing works, just go and see Sudoku-robot.
 
