@@ -25,6 +25,48 @@ A video is worth a thousand words: [a link to youtube video](https://youtu.be/cE
 
 - The project is fully documented. If you want more information about how processing works, just go and see Sudoku-robot.
 
+## How to setup the project
+
+Create a nex project on androidStudio and replace the src folder by mine.
+
+You need to install Tensorflow and OpenCV in your AndroidStudio environment.
+Here are some indications on how to do that:
+- Download the Tensorflow libraries [here](https://ci.tensorflow.org/view/Nightly/job/nightly-android/293/) and decompress. Once done,copy the libandroid_tensorflow_inference_java.jar and the architecture folders inside of the libtensorflow_inference.so in out/native/libtensorflow_inference.so into the android project jniLibs folder locate at src/main/jniLibs.
+
+- Download the OpenCV android pack [here](https://opencv.org/releases.html) and decompress. I use the 3.1.0 version. Then copy the architecture folders inside OpenCV-android-sdk/sdk/native/libs into the same jniLibs as below.
+
+- Now update the gradle file
+
+```
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.3"
+
+    defaultConfig {
+        applicationId "com.example.mohamed.sudoku"
+        minSdkVersion 16
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:25.0.0'
+    compile 'com.android.support:design:25.0.0'
+}
+```
+ 
 ## Keywords
 - Computer vision
 
