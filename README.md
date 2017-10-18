@@ -27,7 +27,7 @@ A video is worth a thousand words: [a link to youtube video](https://youtu.be/cE
 
 ## How to setup the project
 
-Create a nex project on androidStudio and replace the src folder by mine.
+Create a new project on androidStudio and replace the src folder by mine.
 
 You need to install Tensorflow and OpenCV in your AndroidStudio environment.
 Here are some indications on how to do that:
