@@ -66,7 +66,7 @@ dependencies {
     compile 'com.android.support:design:25.0.0'
 }
 ```
- 
+ Otherwise, find [here](https://stackoverflow.com/questions/27406303/opencv-in-android-studio) some links to completly install opencv.
 ## Keywords
 - Computer vision
 
