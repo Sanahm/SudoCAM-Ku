@@ -1,3 +1,5 @@
+This project is no more maintained!
+
 # SudoCAM-Ku!
 An android camera-based augmented reality application that automatically solve and fill Sudoku puzzles by passing the camera over the puzzle. This project is based on a previous work : [An automous robot that solve and fill sudoku puzzles](https://github.com/Sanahm/Sudoku-robot) (see Sudoku-robot repo for more details).
 
